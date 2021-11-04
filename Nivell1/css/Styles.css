@@ -1,0 +1,11 @@
+.huevo {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    background-color: #5265E1;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 0% 0% 50% ;
+}
