@@ -8,4 +8,5 @@
     -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     border-radius: 50% 0% 0% 50% ;
+    z-index:-1;
 }
