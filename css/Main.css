@@ -4320,7 +4320,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #5265E1;
+  color: black;
   text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -4334,7 +4334,7 @@ fieldset:disabled .btn {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: #4251b4;
+  color: #FA5959;
 }
 
 .nav-link.disabled {
@@ -4344,7 +4344,7 @@ fieldset:disabled .btn {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid transparent;
 }
 
 .nav-tabs .nav-link {
@@ -4356,7 +4356,7 @@ fieldset:disabled .btn {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: transparent transparent rgba(128, 128, 128, 0.658);
   isolation: isolate;
 }
 
@@ -4370,7 +4370,7 @@ fieldset:disabled .btn {
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
   background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  border-color: transparent;
 }
 
 .nav-tabs .dropdown-menu {

@@ -10,3 +10,10 @@
     border-radius: 50% 0% 0% 50% ;
     z-index:-1;
 }
+.nav-tabs .nav-link.active{
+    border-bottom:solid 3px #FA5959;
+    font-weight: bold;
+}
+.nav-tabs .nav-link{
+    border-bottom:solid 2px rgba(128, 128, 128, 0.658);
+}
