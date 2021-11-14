@@ -20,6 +20,33 @@
 #card{
     min-height: 25rem;
 }
+.btn-secondary{
+    color:white;
+}
+.btn-secondary:hover{
+    color:#FA5959;
+    background-color: white;
+}
+#buttonCP:hover{
+    color:#5265E1;
+    background-color: white;
+}
+#buttonCS:hover{
+    background-color: white;
+    border:solid 1px black
+}
+
+.accordion-header button{
+    color:black;
+}
+.accordion-header button:not(.collapsed){
+    color:black;
+}
+.accordion-header button:hover{
+    color:#FA5959;
+}
+
+
 @media only screen and (max-width : 768px) {
     .navbar-collapse {
     
