@@ -16,6 +16,7 @@
 }
 .nav-tabs .nav-link{
     border-bottom:solid 2px rgba(128, 128, 128, 0.658);
+    color: black;
 }
 #card{
     min-height: 25rem;
@@ -46,6 +47,14 @@
     color:#FA5959;
 }
 
+@media only screen and (max-width : 992px) {
+
+    .huevo{
+        height: 30%;
+    }
+  }
+
+
 
 @media only screen and (max-width : 768px) {
     .navbar-collapse {
@@ -54,5 +63,17 @@
   }
   .nav-link{
     color:white;
+  }
+  .huevo{
+      height: 50%;
+      width: 40%;
+  }
+}
+@media only screen and (max-width : 576px) {
+ 
+
+  .huevo{
+      height: 30%;
+      width: 40%;
   }
 }
