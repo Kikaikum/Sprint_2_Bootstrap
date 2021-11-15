@@ -46,6 +46,12 @@
 .accordion-header button:hover{
     color:#FA5959;
 }
+aside{
+    background-color:#5265E1;;
+}
+footer{
+    background-color: #242946;
+}
 
 @media only screen and (max-width : 992px) {
 
