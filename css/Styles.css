@@ -10,6 +10,16 @@
     border-radius: 50% 0% 0% 50% ;
     z-index:-1;
 }
+.huevo2{
+    width: 30%;
+    height: 50%; 
+    top: 135%;    
+    left: 0px;
+    border-radius: 0% 50% 50% 0%;
+    z-index:-1;       
+    position: absolute;    
+    background-color: #5265E1;
+}
 .nav-tabs .nav-link.active{
     border-bottom:solid 3px #FA5959;
     font-weight: bold;
@@ -58,6 +68,9 @@ footer{
     .huevo{
         height: 30%;
     }
+    .huevo2{
+        height: 30%;
+    }
   }
 
 
@@ -74,6 +87,10 @@ footer{
       height: 50%;
       width: 40%;
   }
+  .huevo2{
+    height: 50%;
+    width: 40%;
+}
 }
 @media only screen and (max-width : 576px) {
  
@@ -82,4 +99,8 @@ footer{
       height: 30%;
       width: 40%;
   }
+  .huevo2{
+    height: 30%;
+    width: 40%;
+}
 }
