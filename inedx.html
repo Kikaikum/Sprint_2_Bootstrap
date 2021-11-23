@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprint-2</title>
+    <script src="https://kit.fontawesome.com/db8b9a5972.js" crossorigin="anonymous"></script>
     <link href="/css/Main.css" rel="stylesheet">
     <link href="/css/Styles.css" rel="stylesheet">
 </head>
@@ -17,7 +18,7 @@
                     <a class="col-6 navbar-brand" href="#">
                         <img src="/img/logo-bookmark.svg">
                     </a>
-                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon "></span>
                     </button>                                           
                     <div class="collapse navbar-collapse " id="navbarNav">
@@ -29,7 +30,31 @@
                         </div>
                     </div>                
                 </div>
-            </nav>                       
+            </nav>
+            <div class="offcanvas offcanvas-end" id="offcanvas2" tabindex="-1"  aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header mt-2">                    
+                    <img  class="logomovil" src="/img/logo-bookmark.svg">
+                    <button type="button" class="btn-close text-reset filter-green" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <br>
+                <div class="pe-4 ps-4 text-center ">                  
+                    <a class="nav-link border-top"  href="#">FEATURES</a>
+                    <a class="nav-link border-top"  href="#">PRICING</a>
+                    <a class="nav-link border-top border-bottom"  href="#">CONTACT</a>
+                    <br>
+                    <a class="btn btn-secondary" id="loginmovil" href="#">LOGIN</a>                  
+                </div>
+                <div class="row position-absolute bottom-0 start-50 translate-middle mb-3">
+                    <div class="col-6 align-self-center text-start">
+                        <a href="#"><i class="fab fa-facebook-square fa-lg" id="icon"></i></a>
+                    </div>
+                    <div class="col-6 align-self-center text-start">
+                        <a href="#"><i class="fab fa-twitter fa-lg" id="icon"></i></a>
+                    </div>
+                </div>
+               
+
+            </div>                       
     </header>    
     
     <section class="container">            
@@ -145,7 +170,7 @@
                             <h5 class="card-title">Add to Chrome</h5>
                             <p class="card-text">Minimun version 62</p>
                             <img src="/img/bg-dots.svg" class="img-fluid" alt="..." style="min-width:100%">
-                            <a href="#" id="buttonCP" class="btn btn-primary">Add & Install Extension</a>
+                            <a href="#" id="buttonCP" class="btn btn-primary text-nowrap">Add & Install Extension</a>
                         </div>
                     </div>
                 </div>
@@ -157,7 +182,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Minimun version 55</p>
                             <img src="/img/bg-dots.svg" class="img-fluid" alt="..." style="min-width:100%">
-                            <a href="#" id="buttonCP" class="btn btn-primary">Add & Install Extension</a>
+                            <a href="#" id="buttonCP" class="btn btn-primary text-nowrap">Add & Install Extension</a>
                         </div>
                     </div>
                 </div>
@@ -169,7 +194,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Minimun version 46</p>
                             <img src="/img/bg-dots.svg" class="img-fluid" alt="..."style="min-width:100%">
-                            <a href="#" id="buttonCP" class="btn btn-primary">Add & Install Extension</a>
+                            <a href="#" id="buttonCP" class="btn btn-primary text-nowrap">Add & Install Extension</a>
                         </div>
                     </div>
                 </div> 
@@ -250,7 +275,7 @@
                 </div>
             </div>
                     
-            <form class="row needs-validated justify-content-center mt-5 ms-0 ms-md-3">
+            <form class="row needs-validated justify-content-center mt-5 ms-0 ms-md-3 pb-3">
                 
                     <div class="col-10 col-md-4 position-relative text-center">
                         <div class="mb-3" style="position:relative">                        
@@ -259,8 +284,9 @@
                                 Please choose a unique and valid username.
                             </div>
                         </div>
-                    </div>                    
-                    <div class="col-10 col-md-2 text-center">
+                    </div>
+                                       
+                    <div class="col-10 col-md-3 col-lg-2 text-center">
                         <button type="submit" class="btn btn-secondary">Contact US</button>
                     </div>
                 
@@ -270,31 +296,36 @@
               
     <footer>
         <div class="container">
-            <nav class="row navbar navbar-expand-md navbar-light justify-content-center ms-0 ms-md-3">
-            
-                <div class="container-fluid"> 
-                    <div class="col-2 ">  
-                        <a class="navbar-brand" href="#">
-                            <img src="/img/logo-bookmark.svg">
-                        </a>
-                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon "></span>
-                        </button>
+            <nav class="row  ms-0 ms-md-3 pt-3 pb-3">            
+                
+                    <div class="col-md-2 col-12 align-self-center text-center">                        
+                        <image class="logomovil" src="/img/logo-bookmark.svg">                  
                     </div>              
-                    <div class="col-3 ">            
-                        <div class="collapse navbar-collapse " id="navbarNav">
-                            <div class="navbar-nav">                  
-                                <a class="nav-link" style="color:white" href="#">FEATURES</a>
-                                <a class="nav-link" style="color:white" href="#">PRICING</a>
-                                <a class="nav-link" style="color:white" href="#">CONTACT</a>                                            
-                            </div>
-                        </div>
-                    </div>                 
+                    <div class="col-md-8 col-12 align-self-center text-center">                                             
+                        <ul class="nav" id="footcont">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="foot"><small>FEATURES</small></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="foot"><small>PRICING</small></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link" href="#" id="foot"><small>CONTACT</small></a>
+                            </li>                            
+                          </ul>                        
+                    </div>
+                    <div class="col-md-1 col-6 align-self-center text-end">
+                        <a href="#"><i class="fab fa-facebook-square fa-lg" id="icon"></i></a>
+                    </div>
+                    <div class="col-md-1 col-6 align-self-center text-start">
+				        <a href="#"><i class="fab fa-twitter fa-lg" id="icon"></i></a>
+                    </div>               
                 </div>
             
             </nav>
         </div>
     </footer>
+    
     
     <script src="libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     

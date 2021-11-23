@@ -19,7 +19,7 @@ body {
 .huevo2{
     width: 30%;
     height: 50%; 
-    top: 135%;    
+    top: 140%;    
     left: 0px;
     border-radius: 0% 50% 50% 0%;
     z-index:-1;       
@@ -35,10 +35,12 @@ body {
     color: black;
 }
 #card{
+    
     min-height: 25rem;
 }
 .btn-secondary{
     color:white;
+    
 }
 .btn-secondary:hover{
     color:#FA5959;
@@ -68,7 +70,32 @@ aside{
 footer{
     background-color: #242946;
 }
-
+#icon{
+    color:white;
+}
+#icon:hover{
+    color:#FA5959;
+}
+#foot{
+    color:white;
+}
+#foot:hover{
+    color:#FA5959;
+}
+.offcanvas{
+    background-color: #17175be8;
+}
+#loginmovil{
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+}
+.filter-green{
+    filter: invert(100%);
+}
+.logomovil{
+    filter: invert(.9) saturate(.1) brightness(300%);
+}
 @media only screen and (max-width : 992px) {
 
     .huevo{
@@ -79,34 +106,44 @@ footer{
     }
   }
 
-
-
 @media only screen and (max-width : 768px) {
     .navbar-collapse {
-    
-    background: black;
-  }
-  .nav-link{
     color:white;
-  }
-  .huevo{
-      height: 50%;
-      width: 40%;
-  }
-  .huevo2{
-    height: 50%;
-    width: 40%;
-}
+    background: black;
+    }
+    .nav-link{
+        color:white;
+    }
+    .huevo{
+        height: 50%;
+        width: 40%;
+    }
+    .huevo2{
+        top: 158%;
+        height: 50%;
+        width: 40%;
+    }
 }
 @media only screen and (max-width : 576px) {
  
-
-  .huevo{
-      height: 30%;
-      width: 40%;
-  }
-  .huevo2{
-    height: 30%;
-    width: 40%;
-}
+    .btn-secondary{
+        width: 100%;
+    }
+    .huevo{
+        height: 30%;
+        width: 40%;
+    }
+    .huevo2{
+        top: 180%;
+        height: 30%;
+        width: 40%;
+    }
+    #footcont{
+        display: inline-block;
+        float: none;
+        text-align: center;
+    }
+    .navbar-nav {
+        height: 100vh !important;
+      }
 }
